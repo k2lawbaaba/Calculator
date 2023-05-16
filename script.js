@@ -83,14 +83,12 @@ for(let button of buttons){
 
 
 function factorial(input){
-    var num, f;
-    f=1
-    num = input.value;
-    for(var i=1; i<=num; i++){
+    var f=1;
+    for(var i=1; i<=input; i++){
         f = f*i;
     }
     i=i-1;
-    input.value=f;
+    return f;
 }
 
 // iterating the special buttons 
@@ -144,8 +142,8 @@ function factorial(input){
             })
        }
 
+
 function operators(element, dis){
-    // let elem= document.getElementById(element);
     let attr= element.getAttribute('value');
     let displayValue= dis.value
 
