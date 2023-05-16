@@ -34,7 +34,7 @@
     
 }
 
-.btns{
+button{
     width: 3.2rem;
     height: 3rem;
     border-radius: .9rem;
@@ -54,20 +54,20 @@
     background-color: #FCDEC0;
     color: black;
 }
-.btns.item2{
+.item2{
     background-color:   rgb(199, 153, 83);
 }
-.btns.item2:hover{
+.item2:hover{
     background-color: rgb(148, 133, 111);
 } 
-.btns.item3:hover{
+.item3:hover{
     background-color: rgb(237, 211, 172);
     color: black;
 } 
-.btns.item4{
+.item4{
     box-shadow: 0px -1px 0px 2px rgb(231, 225, 225);
 } 
-.btns.item4:hover{
+.item4:hover{
     background-color:#f6f5f3;
     color: black;
 }

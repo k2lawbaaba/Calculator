@@ -12,61 +12,53 @@
     <div class="container">
         <div class="inner-container">
             <input type="text" placeholder="0" id="display">
-            <!-- <textarea type="text" placeholder="0" id="display"></textarea> -->
+
         </div>
         <div class="inn-container">
-            <div class="row first-row">
+            <div class="row">
             </div>
             <div class="row">
-                <button class="btns symbol" onclick="display.value = eval(Math.cos(display.value).toFixed(4))"
-                    target="#display">cos</button>
-                <button class="btns symbol" onclick="display.value = eval(Math.sin(display.value).toFixed(4))"
-                    target="#display">Sin</button>
-                <button class="btns symbol" onclick="display.value = eval(Math.tan(display.value).toFixed(4))"
-                    target="#display">tan</button>
-                <button class="btns symbol" onclick="display.value = eval(Math.log(display.value).toFixed(4))"
-                    target="#display">log</button>
-                    <button class="btns symbol" onclick="display.value = eval(Math.sqrt(display.value,2).toFixed(4))"
-                    target="#display">√</button>
+                <button class="specialOps">cos</button>
+                <button class="specialOps">sin</button>
+                <button class="specialOps">tan</button>
+                <button class="specialOps">log</button>
+                <button class="specialOps">√</button>
             </div>
 
             <div class="row">
-                <button class="btns item2 figSym" >AC</button>
-                <button class="btns item4" onclick="display.value = eval(display.value / 100)"
-                    target="#display">%</button>
-                    <button class="btns item4 figSym"   >(</button>
-                <button class="btns item4 figSym" >)</button>
-                <button class="btns item2" onclick="display.value = display.value.toString().slice(0,-1)">C</button>
+                <button class="item2 figSym" >AC</button>
+                <button class="item4 specialOps">%</button>
+                    <button class="item4 figSym">(</button>
+                <button class="item4 figSym" >)</button>
+                <button class="item2 specialOps">C</button>
 
             </div>
             <div class="row">
-                <button class="btns item3 figSym"  >7</button>
-                <button class="btns item3 figSym"  >8</button>
-                <button class="btns item3 figSym"  >9</button>
-                <button class="btns item4 operator" id="star" onclick="operators(this.id, display)" value="*">*</button>     
-                <button class="btns item4 operator" id='divide' onclick="operators(this.id, display)" value="/">/</button>
+                <button class="item3 figSym">7</button>
+                <button class="item3 figSym">8</button>
+                <button class="item3 figSym">9</button>
+                <button class="item4 operator" value="*">*</button>     
+                <button class="item4 operator" value="/">/</button>
             </div>
             <div class="row">
-                <button class="btns item3 figSym">4</button>
-                <button class="btns item3 figSym" >5</button>
-                <button class="btns item3 figSym" >6</button>
-                <button class="btns item4 operator" id='minus' onclick="operators(this.id, display)" value="-">-</button>
-                <button class="btns item4" onclick="display.value = eval((Math.PI * display.value).toFixed(4))"
-                    target="#display">π</button>
+                <button class="item3 figSym">4</button>
+                <button class="item3 figSym" >5</button>
+                <button class="item3 figSym" >6</button>
+                <button class="item4 operator" value="-">-</button>
+                <button class="item4 specialOps">π</button>
             <div class="row">
-                <button class="btns item3 figSym">1</button>
-                <button class="btns item3 figSym"  >2</button>
-                <button class="btns item3 figSym"  >3</button>
-                <button class="btns item4 operator" id="plus" onclick="operators(this.id, display)" value="+">+</button>
-                <button class="btns item4" onclick="fact(display) += 'x!'" >x!</button>
+                <button class="item3 figSym">1</button>
+                <button class="item3 figSym"  >2</button>
+                <button class="item3 figSym"  >3</button>
+                <button class="item4 operator" value="+">+</button>
+                <button class="item4 specialOps">x!</button>
             </div>
-            <div class="row second-row">
-                <button class="btns item3 figSym" >00</button>
-                <button class="btns item3 figSym" >0</button>
-                <button class="btns item3 operator" id="dot" onclick="operators(this.id, display)" value=".">.</button>
-                <button class="btns item4" onclick="display.value = eval(Math.pow(display.value,2).toFixed(4))"
-                    target="#display">xy</button>
-                <button class="btns item4" id="equalto" onclick="display.value = eval(display.value)">=</button>
+            <div class="row">
+                <button class="item3 figSym" >00</button>
+                <button class="item3 figSym" >0</button>
+                <button class="item3 operator" value=".">.</button>
+                <button class="item4 specialOps">xy</button>
+                <button class="btns item4 specialOps">=</button>
             </div>
         </div>
     </div>
