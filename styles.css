@@ -5,26 +5,30 @@
     box-sizing: border-box;
     /* text-align: center; */
 }
+
+
 .container{
     width: 37vmax;
-    height: 40vmax;
+    /* height: 40vmax; */
     margin: auto;
     border: 2px solid rgb(85, 83, 83);
     padding-top: 0.5%;
     margin-top: 4rem;
 }
 .inn-container{
-    height: 350px;
+    /* height: 350px; */
     width: 100%;
+    /* text-align: center; */
     margin-top: 2rem;
-    /* background-color: red; */
+    padding:1em 1.5em;
 }
 
 .inner-container input{
 
-    width: 35.5vmax;
+    width: 95%;
     height: 90px;
-    margin:1.6rem 0.5rem 0;
+    margin-top:1.6rem;
+    margin-left: .9vmax;
     text-align: end;
     font-size: 3rem;
     border: 0;
@@ -38,11 +42,11 @@ button{
     width: 3.2rem;
     height: 3rem;
     border-radius: .9rem;
-    margin-top: .4rem;
-    margin-left: 1.9rem;
+    margin-top: .7em;
+    margin-left: 1em;
+    margin-right: .5em;
     font-size: large;
     cursor: pointer;
-    padding: 10px;
     color: rgb(246, 248, 249);
     border: none;
     box-shadow: inset 0px -1px 2px 2px rgb(183, 143, 104);
@@ -70,4 +74,21 @@ button{
 .item4:hover{
     background-color:#f6f5f3;
     color: black;
+}
+
+@media (min-width:2332px){
+    .container{
+        width: 26vmax;
+    }
+    button{
+        margin-left: 2.8em;
+        margin-right: 0.3em;
+    }
+    input{
+        margin-left: 0.7vmax;
+        border: 0;
+    }
+    .inn-container{
+        padding: 1em -o.5em;
+    }
 }
