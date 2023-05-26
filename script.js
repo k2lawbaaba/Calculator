@@ -114,7 +114,7 @@ function factorial(input){
                     displayTray.value = eval(displayTray.value / 100);
                     break;
                 case 'C':
-                    displayTray.value = displayTray.value.toString().slice(0,-1);
+                    (equaltoClicked==false)?displayTray.value = displayTray.value.toString().slice(0,-1): displayTray.value ="";
                     break;
                 case 'π':
                     displayTray.value = eval((Math.PI * displayTray.value).toFixed(4));

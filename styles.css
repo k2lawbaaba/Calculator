@@ -3,22 +3,18 @@
     background-color: #141E27;
     margin: 0;
     box-sizing: border-box;
-    /* text-align: center; */
 }
 
 
 .container{
     width: 37vmax;
-    /* height: 40vmax; */
     margin: auto;
     border: 2px solid rgb(85, 83, 83);
     padding-top: 0.5%;
     margin-top: 4rem;
 }
 .inn-container{
-    /* height: 350px; */
     width: 100%;
-    /* text-align: center; */
     margin-top: 2rem;
     padding:1em 1.5em;
 }
@@ -86,7 +82,6 @@ button{
     }
     input{
         margin-left: 0.7vmax;
-        border: 0;
     }
     .inn-container{
         padding: 1em -o.5em;
